@@ -13,15 +13,14 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.flexbox-container{
+  display: flex; /*To bring each item in continuation of that line*/
+  padding: 10px;
+  flex-direction: row;
+  width: 100%;
+  /* background-color: #3a424e; */
+  justify-content: center;  /*center the items of container*/
 }
 
 .App-link {

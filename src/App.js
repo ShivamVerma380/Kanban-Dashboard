@@ -1,23 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import { Col, Row } from 'react-grid-system';
+import kanbanLogo from "../src/assets/kanban_image.png";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='flexbox-container'>
+        <img src={kanbanLogo} style={{ width: 75, height: 60}} alt='logo' ></img>
+        <h2 style={{color:"green" ,margin:15 }}>Kanban Dashboard</h2>
+      </div>
     </div>
   );
 }
