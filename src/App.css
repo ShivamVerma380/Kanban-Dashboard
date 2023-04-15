@@ -23,6 +23,29 @@
   justify-content: center;  /*center the items of container*/
 }
 
+.create-task-input{
+  width: 200px;
+  height: 30px;
+  background-color: whitesmoke;
+}
+
+.create-task-input:hover{
+  background-color: #f3efee;
+  box-shadow: #61dafb 0px 0px 10px;
+}
+
+.create-task-button{
+  background-color: #1ba94c;
+  color: white;
+  padding:8px;  
+  margin-left: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  cursor: pointer; /*To show pointer when mouse is hovered over the button*/
+}
+
+
+
 .App-link {
   color: #61dafb;
 }
